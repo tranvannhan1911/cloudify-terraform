@@ -15,10 +15,10 @@ variable "external_network" {
 # Configure the OpenStack Provider
 provider "openstack" {
   user_name   = "${var.OS_USERNAME}"
-  tenant_id = "${var.TENANT_ID}"
+  tenant_id = "${var.OS_TENANT_ID}"
   password    = "${var.OS_PASSWORD}"
-  auth_url    = "${var.AUTH_URL}"
-  region      = "${var.REGION_NAME}"
+  auth_url    = "${var.OS_AUTH_URL}"
+  region      = "${var.OS_REGION_NAME}"
 }
 
 # Network  
