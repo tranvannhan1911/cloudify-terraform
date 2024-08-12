@@ -13,5 +13,5 @@ provider "openstack" {
 }
 
 output "print_password" {
-  value = var.password
+  value = var.OS_PASSWORD
 }
