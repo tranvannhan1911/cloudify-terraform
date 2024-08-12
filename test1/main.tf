@@ -8,9 +8,6 @@ required_version = ">= 0.14.0"
   }
 }
 
-variable "OS_PASSWORD" {
-  type = string
-}
 
 
 # Configure the OpenStack Provider
