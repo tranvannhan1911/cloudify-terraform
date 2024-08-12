@@ -12,6 +12,7 @@ required_version = ">= 0.14.0"
 provider "openstack" {
 }
 
-output "print_password" {
-  value = var.OS_PASSWORD
-}
+# Network  
+data "openstack_networking_network_v2" "provider_net" {  
+  name = "${var.external_network}"  
+}  
