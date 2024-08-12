@@ -12,8 +12,3 @@ resource "openstack_compute_instance_v2" "openstack_compute_instance_v2_1" {
   user_data         = ""
 }
 
-resource "openstack_lb_loadbalancer_v2" "openstack_lb_loadbalancer_v2_1" {
-  name        = "openstack_lb_loadbalancer_v2_1"
-  description = ""
-}
-
