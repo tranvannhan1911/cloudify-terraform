@@ -206,4 +206,4 @@ output "webapp_public_ip" {
 output "webapp_vip" {  
   value       = openstack_lb_listener_v2.webapp_listener  
   description = "Web Application VIP"  
-}
+} 
