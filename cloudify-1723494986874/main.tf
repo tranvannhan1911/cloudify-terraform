@@ -27,3 +27,13 @@ resource "openstack_compute_instance_v2" "Server_20240813T003450368Z" {
   user_data         = ""
 }
 
+resource "openstack_compute_instance_v2" "Server_20240813T003658199Z" {
+  name              = "Server_20240813T003658199Z"
+  count             = 1
+  image_id          = ""
+  key_name          = ""
+  availability_zone = ""
+  flavor_id         = ""
+  user_data         = ""
+}
+
