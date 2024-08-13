@@ -27,3 +27,8 @@ resource "openstack_compute_instance_v2" "Server_20240813T002047122Z" {
   user_data         = ""
 }
 
+resource "openstack_lb_loadbalancer_v2" "Load_Balancer_20240813T002444136Z" {
+  name        = "Load_Balancer_20240813T002444136Z"
+  description = ""
+}
+
